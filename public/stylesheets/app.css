@@ -7,7 +7,7 @@ body{
 	}
 
 
-p {
+h1 {
       	animation-duration: 4s;
       	animation-name: fadein;
 }
