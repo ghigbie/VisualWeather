@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
     res.render("landing");
 });
 
+app.get("/home", (req, res) => {
+    res.render("home");
+});
+
 app.get("*", (req, res) => {
     res.render("notfound");
 });
