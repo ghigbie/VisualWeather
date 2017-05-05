@@ -1,0 +1,19 @@
+{
+  "name": "visual-weather-app",
+  "version": "1.0.0",
+  "description": "This is a Node.JS app that displays the weather for a specific location, and it uses Node.JS, Express.JS, EJS, and Bootstrap.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghigbie/VisualWeather.git"
+  },
+  "author": "George Higbie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghigbie/VisualWeather/issues"
+  },
+  "homepage": "https://github.com/ghigbie/VisualWeather#readme"
+}
