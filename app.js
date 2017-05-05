@@ -6,6 +6,10 @@ const port = process.env.PORT || 3020;
 
 app.set("view engine", "ejs");
 
+app.get("/", (req, res) => {
+    res.render("landing");
+});
+
 app.get("*", (req, res) => {
     res.render("notfound");
 });
