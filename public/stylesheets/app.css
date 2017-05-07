@@ -90,6 +90,29 @@ ul.topnav li a{
 	text-transform: uppercase;
 }
 
+ul.topnav li a:hover{
+	background: #0080ff;
+	color: #fff;
+}
+
 ul.topnav li.dropdownIcon{
 	display: none;
+}
+
+/*#########   Mobile  ##########*/
+@media screen and (max-width: 680px){
+	ul.topnav li:not(:nth-child(1)){
+		display: none;
+	}
+
+	ul.topnav li.dropdownIcon{
+		display: block;
+		float: right;
+	}
+
+	ul.topnav.responsive li.dropdownIcon{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
 }
